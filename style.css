@@ -2,12 +2,12 @@ body, h1, p, ul, ol, ul {
    margin: 0;
    padding: 0;
    border: 0;
-   list-style: none;
+   list-style: none
 }
 
 body {
    -webkit-text-size-adjust: none;
-   background-color: #0B0C0D;
+   background-color: #0B0C0D
 }
 
 body:after {
@@ -21,17 +21,17 @@ body:after {
    background-color: #26282B;
    pointer-events: none;
    transform: scale(1);
-   transition: opacity 1s ease-in-out 0s, visibility 1s 0s;
+   transition: opacity 1s ease-in-out 0s, visibility 1s 0s
 }
 
 body.is-loading:after {
    opacity: 1;
-   visibility: visible;
+   visibility: visible
 }
 
 :root {
    --background-height: 100vh;
-   --viewport-height: 100vh;
+   --viewport-height: 100vh
 }
 
 #wrapper {
@@ -39,7 +39,7 @@ body.is-loading:after {
    justify-content: center;
    align-items: center;
    min-height: var(--viewport-height);
-   position: relative;
+   position: relative
 }
 
 #main {
@@ -51,34 +51,34 @@ body.is-loading:after {
    font-family: system-ui;
    font-size: 3.25em;
    line-height: 1.375;
-   font-weight: 300;
+   font-weight: 300
 }
 
 #text01 {
    color: #fff;
-   font-family: 'Inter', sans-serif;
-   font-size: 1em;
+   font-family: 'Inter', sans-serif, system-ui;
+   font-size: 1em
 }
 
 .icons {
    display: flex;
-   justify-content: var(--flex-alignment);
+   justify-content: var(--flex-alignment)
 }
 
 .icons li a {
    display: flex;
    justify-content: center;
-   align-items: center;
+   align-items: center
 }
 
 .icons li a .label {
-   display: none;
+   display: none
 }
 
 #icons01 {
    font-size: 1.5em;
    gap: 1.25rem;
-   margin-top: 2.625rem !important
+   margin-top: 2.625rem
 }
 
 #icons01 li a {
@@ -90,20 +90,19 @@ body.is-loading:after {
 #icons01 li a svg {
    height: 60%;
    width: 60%;
-   transition: fill 0.25s ease;
+   transition: fill 0.25s ease
 }
 
 #icons01 a svg {
-   fill: #fff;
+   fill: #fff
 }
 
 #icons01 a {
-   border: solid 2px #fff;
+   border: solid 2px #fff
 }
 
 @media (max-width: 1680px) {
    html {
-   font-size: 9pt;
+   font-size: 9pt
   }
 }
- 
